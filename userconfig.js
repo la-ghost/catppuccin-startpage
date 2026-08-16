@@ -67,7 +67,7 @@ const default_configuration = {
               name: "fitGURL",
               url: "https://fitgirl-repacks.site/",
               icon: "badge-ar",
-              icon_color: palette.pink,
+              icon_color: palette.red,
             },
           ],
         },
