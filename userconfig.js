@@ -63,6 +63,12 @@ const default_configuration = {
               icon: "binary-tree",
               icon_color: palette.peach,
             },
+            {
+              name: "fitGURL",
+              url: "https://fitgirl-repacks.site/",
+              icon: "badge-ar",
+              icon_color: palette.pink,
+            },
           ],
         },
         {
