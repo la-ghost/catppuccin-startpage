@@ -69,6 +69,12 @@ const default_configuration = {
               icon: "badge-ar",
               icon_color: palette.red,
             },
+            {
+              name: "aARgg",
+              url: "https://www.reddit.com/r/Piracy/",
+              icon: "brand-google-drive",
+              icon_color: palette.blue,
+            },
           ],
         },
         {
