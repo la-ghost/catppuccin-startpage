@@ -29,6 +29,7 @@ const default_configuration = {
   ],
   search: {
     engines: {
+      b: ["https://search.brave.com/search/?q=", "Brave"],
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
@@ -75,6 +76,12 @@ const default_configuration = {
               icon: "brand-google-drive",
               icon_color: palette.blue,
             },
+            {
+              name: "mEGAthread",
+              url: "https://rentry.co/megathread",
+              icon: "brand-funimation",
+              icon_color: palette.mauve,
+            },
           ],
         },
         {
@@ -103,6 +110,12 @@ const default_configuration = {
               url: "https://drive.google.com/drive/home",
               icon: "brand-google-drive",
               icon_color: palette.blue,
+            },
+            {
+              name: "bAckUp",
+              url: "https://lemmy.dbzer0.com/c/piracy",
+              icon: "code-plus",
+              icon_color: palette.mauve,
             },
           ],
         },
