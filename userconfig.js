@@ -21,8 +21,8 @@ const default_configuration = {
   },
   additionalClocks: [
     {
-      label: "UA",
-      timezone: "Europe/Kyiv",
+      label: "NY",
+      timezone: "New York",
       format: "h:i",
       icon_color: palette.peach,
     },
@@ -222,8 +222,8 @@ const default_configuration = {
           name: "resources",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
+              name: "huggingface",
+              url: "https://huggingface.co/models",
               icon: "brand-prisma",
               icon_color: palette.green,
             },
