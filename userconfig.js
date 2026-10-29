@@ -46,8 +46,8 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "la-ghost",
-      background_url: "src/img/banners/banner_11.gif",
+      name: "laGhost",
+      background_url: "src/img/banners/banner_08.gif",
       categories: [
         {
           name: "bookmarks",
@@ -72,7 +72,7 @@ const default_configuration = {
             },
             {
               name: "aARgg",
-              url: "https://www.reddit.com/r/Piracy/",
+              url: "https://yarrlist.net/",
               icon: "brand-google-drive",
               icon_color: palette.blue,
             },
@@ -117,6 +117,12 @@ const default_configuration = {
               icon: "code-plus",
               icon_color: palette.mauve,
             },
+            {
+              name: "prOton_mail",
+              url: "https://account.proton.me/mail",
+              icon: "analyze",
+              icon_color: palette.flamingo,
+            },
           ],
         },
         {
@@ -152,6 +158,12 @@ const default_configuration = {
               icon: "home-2",
               icon_color: palette.mauve,
             },
+            {
+              name: "1shows",
+              url: "https://www.1shows.org/",
+              icon: "movie",
+              icon_color: palette.teal,
+            },
           ],
         },
       ],
@@ -185,7 +197,7 @@ const default_configuration = {
               name: "collab",
               url: "https://colab.research.google.com",
               icon: "notebook",
-              icon_color: palette.mauve,
+              icon_color: palette.blue,
             },
           ],
         },
@@ -244,6 +256,12 @@ const default_configuration = {
               url: "https://netflixtechblog.com",
               icon: "brand-netflix",
               icon_color: palette.blue,
+            },
+            {
+              name: "diStro_watCh",
+              url: "https://www.distrowatch.com/",
+              icon: "devices-pc",
+              icon_color: palette.mauve,
             },
           ],
         },
