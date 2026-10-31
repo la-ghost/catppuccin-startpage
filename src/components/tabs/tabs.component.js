@@ -151,7 +151,7 @@ class Tabs extends Component {
           border-radius: 5px 0 0 5px;
           width: 90%;
           max-width: 1200px;
-          height: 450px;
+          height: min(650px, calc(100vh - 180px));
           right: 0;
           left: 0;
           top: 0;
@@ -219,7 +219,10 @@ class Tabs extends Component {
           width: 70%;
           height: 100%;
           background: ${CONFIG.palette.base};
-          padding: 5%;
+          padding: 3%;
+          box-sizing: border-box;
+          overflow-y: auto;
+          overflow-x: hidden;
           flex-wrap: wrap;
       }
 
